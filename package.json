@@ -1,0 +1,59 @@
+{
+  "name": "marvel-characters",
+  "version": "1.0.0",
+  "description": "all Marvel comic book characters",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "javascript-natural-sort": "^0.7.1",
+    "minimist": "^1.1.1",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "comma-number": "^1.1.0",
+    "dateformat": "^1.0.11",
+    "marvel-comics-api-stream": "^1.0.0",
+    "natural-sort": "^0.1.0",
+    "rc": "^1.0.3",
+    "uniq": "^1.0.1"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "start": "node tool/scrape.js"
+  },
+  "keywords": [
+    "comic",
+    "book",
+    "list",
+    "characters",
+    "all",
+    "names",
+    "super",
+    "hero",
+    "superhero",
+    "superheroes",
+    "villain",
+    "villains",
+    "dc",
+    "bat",
+    "man",
+    "spider",
+    "heroes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/marvel-characters.git"
+  },
+  "homepage": "https://github.com/mattdesl/marvel-characters",
+  "bugs": {
+    "url": "https://github.com/mattdesl/marvel-characters/issues"
+  },
+  "bin": {
+    "marvel-characters": "./cli.js"
+  }
+}
