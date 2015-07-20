@@ -7,6 +7,8 @@ A list of all public comic book character names in the [Marvel universe](https:/
 **Total Characters:** 1,252  
 **Last Updated:** Sunday, July 19th, 2015.
 
+Data provided by Marvel. © 2015 Marvel
+
 ## Install
 
 ```sh
@@ -85,6 +87,11 @@ You will need a Marvel Developer account. Once you have API keys, copy them into
 ```
 
 Then use `npm start` to scrape the new data.
+
+## See Also
+
+- [marvel-comics-api](https://github.com/mattdesl/marvel-comics-api)
+- [marvel-comics-api-stream](https://github.com/mattdesl/marvel-comics-api-stream)
 
 ## License
 
