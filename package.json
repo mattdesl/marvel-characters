@@ -1,6 +1,6 @@
 {
   "name": "marvel-characters",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "all Marvel comic book characters",
   "main": "index.js",
   "license": "MIT",
